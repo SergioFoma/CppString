@@ -81,6 +81,7 @@
 | `operator+(const String&, const String&)` | Возвращает результат сложения двух строк. |
 | `operator+(const String&, const char*)` | Сложение строки и Си-строки справа. |
 | `operator+(const char*, const String&)` | Сложение Си-строки и строки слева (симметричный оператор). |
+| `std::ostream& operator<<(std::ostream& out, const String& str)` | Выводит строку String. |
 
 # Установка репозитория 👾
 
