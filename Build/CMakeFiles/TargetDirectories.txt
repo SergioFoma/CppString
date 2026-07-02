@@ -1,3 +1,0 @@
-/home/foma/Documents/Meshcherin_2024/CppString/Build/CMakeFiles/string.dir
-/home/foma/Documents/Meshcherin_2024/CppString/Build/CMakeFiles/edit_cache.dir
-/home/foma/Documents/Meshcherin_2024/CppString/Build/CMakeFiles/rebuild_cache.dir
