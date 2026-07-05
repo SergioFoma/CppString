@@ -8,7 +8,7 @@
 
 * 9 конструкторов
 * 35 методов
-* перегружены операции сложения (как внешние функции от двух параметров)
+* 10 внешних функций
 * 1 деструктор
 
 Структура проекта:
@@ -82,6 +82,13 @@
 | `operator+(const String&, const char*)` | Сложение строки и Си-строки справа. |
 | `operator+(const char*, const String&)` | Сложение Си-строки и строки слева (симметричный оператор). |
 | `operator<<(std::ostream& out, const String& str)` | Выводит строку String. |
+| `operator<(const String& left, const String& right)` | Лексикографическое <. |
+| `operator>(const String& left, const String& right)` | Лексикографическое >. |
+| `operator<=(const String& left, const String& right)` | Лексикографическое <=. |
+| `operator>=(const String& left, const String& right)` | Лексикографическое >=. |
+| `operator==(const String& left, const String& right)` | Лексикографическое ==. |
+| `operator!=(const String& left, const String& right)` | Лексикографическое !=. |
+
 
 # Установка репозитория 👾
 
